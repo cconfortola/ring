@@ -1,0 +1,28 @@
+# General
+appTitle: "Ring"
+
+# Home Screen
+insertRing: "Insert ring in"
+removeRing: "Remove ring in"
+insert: "insert"
+remove: "remove"
+insertedButton: "Inserted"
+removedButton: "Removed"
+
+today: "Today"
+
+day:
+  one: "day"
+  other: "days"
+
+countdownTitle: "No"
+countdownSubtitle: "countdown"
+
+doneButton: "Done"
+cancelButton: "Cancel"
+
+# Ring Overlay
+remainingRingsTitle: "Remaining Rings"
+remainingRings: "Select how many rings you've got left."
+
+confirmButton: "Ok"

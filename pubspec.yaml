@@ -1,0 +1,38 @@
+name: ring
+description: A sleek app to track your contraceptive ring.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  activity_ring: ^0.2.0
+  shared_preferences: ^0.5.10
+  easy_localization: ^2.3.3
+  easy_localization_loader:
+    git:
+      url: https://github.com/aissat/easy_localization_loader.git
+      ref: develop
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+  android: true
+  image_path: "dev_assets/ring.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "dev_assets/ring-adaptive.png"
+flutter:
+  uses-material-design: true
+
+  assets:
+    - i18n/
